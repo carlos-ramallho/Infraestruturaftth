@@ -3,7 +3,7 @@ function logar() {
     var senha = document.getElementById("senha");
 
 
-    if (email.value == "admin@admin.com" && senha.value == "1234") {
+    if (email.value == "projetos@grupobrisanet.com.br" && senha.value == "%brisa321") {
         localStorage.setItem("acesso", true);
         alert("Usuário Autenticado!");
         window.location.href = "index.html";
